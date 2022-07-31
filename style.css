@@ -107,8 +107,58 @@ main h2 {
     width: auto;
 }
 
+.wrapper {
+    width: 70%;
+    margin-inline: auto;
+}
+
+.cards-container {
+    width: 80%;
+    margin-inline: auto;
+
+    display: flex;
+    /* gap: 3rem;    */
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 4px;
+    border-radius: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card p {
+    text-align: center;
+}
 
 
+.quote-container {
+    background: #E5E7EB;
+    width: 80%;
+    margin-inline: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.quote-content{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-author{
+   font-weight: 900;
+    font-size: 20px;
+
+    align-self: flex-end;
+}
 
 
 
