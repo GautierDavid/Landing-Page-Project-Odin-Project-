@@ -14,6 +14,7 @@ header, footer {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    font-weight: 100;
 }
 
 ul {
@@ -26,6 +27,7 @@ nav>p , h2{
 
 nav>p {
     font-size: 24px;
+    font-weight: 900;
     margin-block: 0;
 }
 
@@ -38,6 +40,7 @@ h2 {
 .hero-content-container p {
     width: 90%;
     margin-block: 0;
+    font-weight: 100;
 }
 
 
@@ -64,7 +67,7 @@ h2 {
 
 .hero-container {
     display: flex;
-    padding-block: 10rem;
+    padding-block: 8rem;
 }
 
 .hero-content-container {
@@ -105,6 +108,7 @@ main h2 {
     font-weight: bold;
     color: #1F2937;
     width: auto;
+    margin-block: 3rem;
 }
 
 .wrapper {
@@ -117,7 +121,7 @@ main h2 {
     margin-inline: auto;
 
     display: flex;
-    /* gap: 3rem;    */
+    gap: 3rem;
 }
 
 .img {
@@ -135,7 +139,8 @@ main h2 {
 }
 
 .card p {
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
 }
 
 
@@ -143,6 +148,7 @@ main h2 {
     background: #E5E7EB;
     width: 80%;
     margin-inline: auto;
+    margin-block: 12rem;
 
     display: flex;
     flex-direction: column;
@@ -152,17 +158,47 @@ main h2 {
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
+    margin-bottom: 0;
 }
 .quote-author{
-   font-weight: 900;
-    font-size: 20px;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 0;
 
     align-self: flex-end;
 }
 
 
 
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 3rem 8rem;
+    margin-bottom: 7rem;
+}
+
+.signup-container p {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 2px;
+}
+
+.signup-container p:first-of-type {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.blue-button.signup {
+    align-self: center;
+    border: solid white 2px;
+}
+
+
 footer p {
     text-align: center;
     padding-block: 2rem;
+    margin-block: 0;
 }
